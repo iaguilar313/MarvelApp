@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "MovieClub";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model WebApplication1.Models.UserInfo
+
+<h2>Movie Club</h2>
+<img src="http://www.warpzoned.com/wp-content/uploads/2015/07/marvel-header.jpg"> 
+
+
+<form action="/Home/ProcessForm" method="post">
+    Name:<input type="text" name="ClientName"/><br/>
+    Email:<input type="email" name="Email"/><br/>
+    <input type="submit" value="SignUp!"/> <br/>
+
+</form>
+
